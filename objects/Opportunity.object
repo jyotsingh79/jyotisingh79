@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Amount__c</fullName>
+        <fullName>OrderNumber__c</fullName>
         <externalId>false</externalId>
-        <label>Amount</label>
-        <precision>18</precision>
+        <label>Order Number</label>
+        <length>8</length>
         <required>false</required>
-        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
-        <type>Currency</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
 </CustomObject>
